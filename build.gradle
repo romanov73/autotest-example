@@ -1,0 +1,16 @@
+group 'orion'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-devtools'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:3.3.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.3'
+}
