@@ -23,3 +23,6 @@ dependencies {
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.27.0'
     testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.11.3'
 }
+test {
+    useJUnitPlatform()
+}
