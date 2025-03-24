@@ -16,7 +16,6 @@ public abstract class Context {
     public void start() {
         System.setProperty(getDriverType(), getDriverExecutablePath());
         createDriver();
-        //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     public void close() {
